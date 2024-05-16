@@ -2,9 +2,10 @@
 
 Red life: Predicting Casualty Severity in Traffic Accidents 
 
-![](Aspose.Words.b018b5be-cf21-4e88-ab22-8f11651d6148.001.png)
+![image](https://github.com/EVSZ/Traffic-Casualty-Severity-Prediction/assets/70894511/9a251e62-26d4-4b07-b0da-a24b00c4d3f1)
 
-**Delivery Document ![](Aspose.Words.b018b5be-cf21-4e88-ab22-8f11651d6148.002.png)**
+
+**Delivery Document**
 
 Mateusz Mierzejek  2775409 12/20/2021 
 
@@ -16,17 +17,15 @@ On the other hand, a model can be a great way of implementing a real-world use c
 
 These things can be possible with a successful project. The next step towards this is interpreting the data and finding future solutions.  
 
-*Contents* 
-
-[Introduction ................................................................................................................................................. 2 ](#_page1_x69.00_y72.00)[Collection & Evaluation ............................................................................................................................. 4 ](#_page3_x69.00_y72.00)[Final Impact Assessment ............................................................................................................................ 5 ](#_page4_x69.00_y72.00)[Deployment Recommendation................................................................................................................ 6 ](#_page5_x69.00_y72.00)[Concluding Chapter .................................................................................................................................. 7](#_page6_x69.00_y72.00)
-
 <a name="_page3_x69.00_y72.00"></a>Collection & Evaluation  
 
 In the proposal document we started out by exploring different possibilities and factors which might have an influence in the severity of a traffic incident. Transiting from a general view of Europe and focusing on the Netherlands. We found this data not to be of sufficient quality based on the factors of significant amount of unknown or missing data.  
 
 By analyzing these datasets some valuable insights and techniques have come to play. Like the selection of features and data visualization. In order to have a proof of concept, the choice has been made to opt in for a British dataset. This had the benefit of little to no missing data. And thus, a bigger selection of features which could be considered important when predicting the severity. Some of the main features being: 
 
-We observe the **age** of the *casualty* and *driver* have a high impact. This can be because a combination of some age groups leads ![](Aspose.Words.b018b5be-cf21-4e88-ab22-8f11651d6148.003.png)to more dangerous scenarios. 
+![image](https://github.com/EVSZ/Traffic-Casualty-Severity-Prediction/assets/70894511/4f73ffc3-2f87-4145-945b-6f1c44b31429)
+
+We observe the **age** of the *casualty* and *driver* have a high impact. This can be because a combination of some age groups leads to more dangerous scenarios. 
 
 Another important factor is the data about the vehicle. We can see the **engine capacity** and **model** play a part in the severity of an incident. 
 
@@ -34,7 +33,10 @@ In addition to that an interesting benefactor are the **imd\_decile** features. 
 
 Finally, there are some descriptive features like the **direction** the vehicles was heading and some limitations like **speed limit**. 
 
-Use has been made of multiple algorithms, but Random ![](Aspose.Words.b018b5be-cf21-4e88-ab22-8f11651d6148.004.png)Forest Classifier scored the best. A reasoning for the high accuracy is over sampling of the dataset. This might have had an influence on the model being most biased.  
+Use has been made of multiple algorithms, but Random Forest Classifier scored the best. A reasoning for the high accuracy is over sampling of the dataset. This might have had an influence on the model being most biased.  
+
+![image](https://github.com/EVSZ/Traffic-Casualty-Severity-Prediction/assets/70894511/36ee6e9e-d349-417e-921e-068240f3b14a)
+
 
 We observe the train score being higher than the validation score. This is a sign of overfitting. Thus, another approach would have to be taken to ensure the data fits the requirements. 
 
@@ -54,12 +56,9 @@ Tracking these features could lead to a better understanding of the nature of in
 
 To finalize the documents provided will give further insight into the research that has been done in the order of: 
 
-1. **Project Proposal.pdf** along with **Traffic Casualty Severity EDA.html** *Evaluation of project and domain understanding along with EDA* 
-1. **Traffic Incident Casualty Severity Phase 2 + 3.html** 
-
+1. **Project Proposal.pdf** along with
+   **Traffic Casualty Severity EDA.html** *Evaluation of project and domain understanding along with EDA*
+2. **Traffic Incident Casualty Severity Phase 2 + 3.html** 
    *Data preparation, Data visualization, Modeling* 
-
 3. **Delivery.pdf** 
-
    *Evaluation* 
-Page 7** of 7** 
